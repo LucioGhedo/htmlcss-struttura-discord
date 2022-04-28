@@ -10,6 +10,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    
     /* TEST */
     background-color: aqua;
     height: 50px;
@@ -18,6 +19,7 @@ header {
 .navbar{
     display: flex;
     justify-content: space-between;
+
     /* TEST */
     background-color: goldenrod;
     width: 70%;
@@ -40,4 +42,22 @@ header {
 .login{
     width: 20%;
     text-align: right;
+}
+
+/* JUMBOTRON */
+.jumbo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* TEST */
+    height: 500px;
+    background-color: blue;
+}
+.content-jumbo{
+    /* TEST */
+    width: 50%;
+    height: 450px;
+    background-color: pink;
+    border: 1px dotted black;
 }
