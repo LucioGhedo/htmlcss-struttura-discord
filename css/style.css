@@ -1,0 +1,43 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* TEST */
+    background-color: aqua;
+    height: 50px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* TEST */
+    background-color: goldenrod;
+    width: 70%;
+    height: 40px;
+}
+
+.navbar div {
+    padding: 10px 0;
+    border: 1px dotted black;
+}
+
+.link{
+    width: 60%;
+}
+
+.logo{
+    width: 20%;
+}
+
+.login{
+    width: 20%;
+    text-align: right;
+}
