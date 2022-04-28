@@ -114,5 +114,54 @@ header {
 
 /* FOOTER */
 footer {
-    background-color: ;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* TEST */
+    height: 600px;
+    margin-bottom: 2px;
+}
+.pink-footer{
+    /* TEST */
+    background-color: pink;
+    width: calc(80% / 5);
+    height: 580px;
+    border: 1px dotted black;
+}
+.blue-footer{
+    /* TEST */
+    background-color: aquamarine;
+    width: calc(40% / 5);
+    height: 580px;
+    border: 1px dotted black;
+}
+
+.footer-2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* TEST */
+    background-color: grey;
+    height: 200px;
+}
+.content-footer-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    /* TEST */
+    height: 90%;
+    background-color: aqua;
+}
+.logo-footer{
+    /* TEST */
+    background-color: pink;
+    padding: 5px;
+    border: 1px dotted black;
+}
+.bottone{
+    background-color: pink;
+    padding: 5px;
+    border: 1px dotted black;
 }
