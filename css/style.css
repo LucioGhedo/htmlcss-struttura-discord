@@ -61,3 +61,35 @@ header {
     background-color: pink;
     border: 1px dotted black;
 }
+
+/* MAIN */
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* TEST */
+    height: 700px;
+}
+.content {
+    /* TEST */
+    width: 55%;
+    background-color: aqua;
+    height: 80%;
+    border: 1px dotted black;
+}
+.img {
+    /* TEST */
+    width: 25%;
+    background-color: pink;
+    height: 80%;
+    border: 1px dotted black;
+}
+.flex-container2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    /* TEST */
+    height: 700px;
+    background-color: grey;
+}
