@@ -28,13 +28,27 @@ header {
 
 .navbar div {
     padding: 10px 0;
+
+    /* TEST */
     border: 1px dotted black;
 }
-
+/* UL LINK */
 .link{
     width: 60%;
     text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
+.link li {
+    padding: 0 20px;
+}
+.link li a {
+    text-decoration: none;
+    color: inherit;
+}
+/* FINE UL LINK */
+
 
 .logo{
     width: 20%;
@@ -108,7 +122,7 @@ header {
 .main-content{
     /* TEST */
     background-color: green;
-    width: 70%;
+    width: 80%;
     height: 90%;
     border: 1px dotted black;
 }
