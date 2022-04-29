@@ -99,7 +99,7 @@ header {
     height: 80%;
     border: 1px dotted black;
 }
-.flex-container2{
+.flex-container-reverse{
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
@@ -128,7 +128,7 @@ header {
 }
 
 /* FOOTER */
-footer {
+.footer-top {
     background-color: grey;
     display: flex;
     justify-content: center;
