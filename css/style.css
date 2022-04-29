@@ -159,7 +159,7 @@ header {
     align-items: flex-end;
     /* TEST */
     background-color: grey;
-    height: 200px;
+    height: 100px;
 }
 .content-footer-bottom{
     display: flex;
@@ -167,7 +167,7 @@ header {
     align-items: center;
     width: 70%;
     /* TEST */
-    height: 90%;
+    height: 70%;
     background-color: aqua;
 }
 .logo-footer{
